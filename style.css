@@ -1,0 +1,166 @@
+body, html{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    background: white;
+  }
+  
+
+.link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.link:hover { 
+    text-decoration: underline 2px;
+    text-underline-offset: 0.4em;
+}
+
+.header {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moveDown {
+    position: relative;
+    top: 12px;
+  }
+
+.subheader {
+    display: flex;
+    justify-content: flex-end;
+    padding-top:16px;
+}
+
+.head1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16px;
+    align-items: center;
+}
+
+.head2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 24px;
+    align-items: center;
+}
+
+.h {
+    margin-left: 16px;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery {
+    height: 16px;
+    width: 16px;
+    /*z-index: -1;*/
+}
+
+.icon:hover {
+    background: #d3e2fd;
+}
+
+#account {
+    height: 32px;
+    width: 32px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#color {
+    width: 540px;
+    height: auto;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.search {
+    width: 720px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 32px;
+    text-indent: 16px;
+    font-size: 18px;
+}
+
+#go {
+    font-size: 18px;
+    color: white;
+    background: black;
+    border: none;
+    width: 80px;
+    height: 54px;
+    border-radius: 32px;
+    margin-left: 16px;
+}
+
+#go:hover {
+    cursor: pointer;
+}
+
+
+.text {
+    position: fixed;
+    bottom: 0px;
+    background: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content p{
+    color: white;
+}
+
+#alink {
+    color: skyblue;
+}
+
+#colorlogo {
+    height: 32px;
+    width: auto;
+}
+
+#searched {
+    background: #f2f2f2;
+}
+
+.information {
+    max-width: 1152px;
+    margin: 64px auto 0;
+    color: black;
+}
+
+.information > p {
+    color: #828282;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: 500;
+}
